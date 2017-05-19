@@ -22,7 +22,7 @@ Ubuntu packaging and updates the driver to latest version with patches to make
 it compile on modern Kernels.
 
 ```bash
-sudo apt-get install git-buildpackage
+sudo apt-get install git-buildpackage dh-modaliases
 mkdir bcmwl-ubuntu
 cd bcmwl-ubuntu
 git clone https://github.com/longsleep/bcmwl-ubuntu.git bcmwl-ubuntu-master
